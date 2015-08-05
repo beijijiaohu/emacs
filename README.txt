@@ -12,6 +12,7 @@ a   安装一些软件
     sudo apt-get install cscope   # 安装cscope的支持
     sudo apt-get install cflow
 b   做些拷贝/链接动作，这里采用软链接
+    sudo rm /usr/bin/cscope-indexer
     sudo ln -s ./.emacs.d/grep_cscope_file /usr/bin/grep_cscope_file
     sudo ln -s ./.emacs.d/cscope-indexer /usr/bin/cscope-indexer
     ln -s ./.emacs.d/.emacs ~/.emacs
