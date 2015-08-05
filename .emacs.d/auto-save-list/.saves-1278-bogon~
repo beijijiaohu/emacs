@@ -1,0 +1,10 @@
+/home/jiaowu/bbkwork/out/target/product/h600s/root/init.h600s.rc
+/home/jiaowu/bbkwork/out/target/product/h600s/root/#init.h600s.rc#
+/home/jiaowu/bbkwork/out/target/product/h600s/system/etc/vold.fstab
+/home/jiaowu/bbkwork/out/target/product/h600s/system/etc/#vold.fstab#
+/home/jiaowu/bbkwork/build/target/board/h600s/vold.fstab.mmc-mbr
+/home/jiaowu/bbkwork/build/target/board/h600s/#vold.fstab.mmc-mbr#
+/home/jiaowu/bbkwork/build/target/board/h600s/vold.fstab.mmc
+/home/jiaowu/bbkwork/build/target/board/h600s/#vold.fstab.mmc#
+/home/jiaowu/bbkwork/build/target/board/h600s/fstab.mmc-mbr
+/home/jiaowu/bbkwork/build/target/board/h600s/#fstab.mmc-mbr#

@@ -1,0 +1,9 @@
+#name : function (...) {...}
+# --
+/*
+ * ${5:function of this function}
+ */
+${1:int} ${2:func} (${3:int n}) {
+    $0
+    ${4:return 0;}
+}

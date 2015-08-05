@@ -1,0 +1,10 @@
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/msc/msc_boot.c
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/msc/#msc_boot.c#
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/msc/cmd_msc.c
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/msc/#cmd_msc.c#
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/libc/memcpy.c
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/libc/#memcpy.c#
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/board/s2122b_15/mbr.h
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/board/s2122b_15/#mbr.h#
+/home/jwu/work/indroid/bootable/bootloader/xboot/spl/msc/msc_boot_jz4775.c
+/home/jwu/work/indroid/bootable/bootloader/xboot/spl/msc/#msc_boot_jz4775.c#

@@ -1,0 +1,26 @@
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_CFLAGS += -UNDEBUG -D_DEBUG
+
+LOCAL_SRC_FILES := \
+	main.c
+
+LOCAL_MODULE := ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-name)))`}
+
+##########################
+# enable it open debug
+##########################
+#LOCAL_CFLAGS += -g
+
+LOCAL_C_INCLUDES += \
+\$(LOCAL_PATH)/include/
+
+LOCAL_SHARED_LIBRARIES += \
+
+
+LOCAL_MODULE_TAGS := optional
+
+include \$(BUILD_EXECUTABLE)
+#include \$(BUILD_SHARED_LIBRARY)

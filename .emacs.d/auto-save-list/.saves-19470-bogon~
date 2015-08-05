@@ -1,0 +1,16 @@
+/home/jiaowu/img/plan.c
+/home/jiaowu/img/#plan.c#
+/home/jiaowu/bbkwork/kernel/arch/mips/power/cpu.c
+/home/jiaowu/bbkwork/kernel/arch/mips/power/#cpu.c#
+/home/jiaowu/bbkwork/kernel/kernel/power/snapshot.c
+/home/jiaowu/bbkwork/kernel/kernel/power/#snapshot.c#
+/home/jiaowu/img/suspend_to_disk.c
+/home/jiaowu/img/#suspend_to_disk.c#
+/home/jiaowu/bbkwork/kernel/kernel/power/hibernate.c
+/home/jiaowu/bbkwork/kernel/kernel/power/#hibernate.c#
+/home/jiaowu/bbkwork/kernel/drivers/base/power/main.c
+/home/jiaowu/bbkwork/kernel/drivers/base/power/#main.c#
+/home/jiaowu/bbkwork/kernel/drivers/input/keyboard/gpio_keys.c
+/home/jiaowu/bbkwork/kernel/drivers/input/keyboard/#gpio_keys.c#
+/home/jiaowu/bbkwork/kernel/arch/powerpc/kernel/swsusp.c
+/home/jiaowu/bbkwork/kernel/arch/powerpc/kernel/#swsusp.c#

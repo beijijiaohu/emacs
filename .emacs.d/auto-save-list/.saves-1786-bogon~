@@ -1,0 +1,10 @@
+/home/jwu/work/indroid/bootable/bootloader/xboot/Makefile
+/home/jwu/work/indroid/bootable/bootloader/xboot/#Makefile#
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/lcd/lcd_panel_data.c
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/lcd/#lcd_panel_data.c#
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/lcd/lcd.c
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/lcd/#lcd.c#
+/home/jwu/work/indroid/bootable/bootloader/xboot/include/jz4775_android_lcd.h
+/home/jwu/work/indroid/bootable/bootloader/xboot/include/#jz4775_android_lcd.h#
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/board/s2122b_15/ssd1351.c
+/home/jwu/work/indroid/bootable/bootloader/xboot/boot/board/s2122b_15/#ssd1351.c#

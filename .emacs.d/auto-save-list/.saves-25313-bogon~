@@ -1,0 +1,4 @@
+/home/jiaowu/bbkwork/out/target/product/h600s/system/etc/vold.fstab
+/home/jiaowu/bbkwork/out/target/product/h600s/system/etc/#vold.fstab#
+/home/jiaowu/bbkwork/bootable/bootloader/xboot/partitions.tab
+/home/jiaowu/bbkwork/bootable/bootloader/xboot/#partitions.tab#

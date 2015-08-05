@@ -1,0 +1,85 @@
+#name : module with platform_driver
+# --
+/*
+ *  Copyright (C) 2015 Wu Jiao <jiao.wu@ingenic.com wujiaososo@qq.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify it
+ *  under  the terms of the GNU General  Public License as published by the
+ *  Free Software Foundation;  either version 2 of the License, or (at your
+ *  option) any later version.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  675 Mass Ave, Cambridge, MA 02139, USA.
+ */
+
+#include <linux/module.h>
+#include <linux/platform_device.h>
+#include <linux/suspend.h>
+
+static int ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-name)))`}_probe(struct platform_device *pdev) {
+	return 0;
+}
+
+static int $1_remove(struct platform_device *pdev) {
+	return 0;
+}
+
+int $1_suspend(struct platform_device *pdev, pm_message_t state) {
+	return 0;
+}
+
+int $1_resume(struct platform_device *pdev) {
+	return 0;
+}
+
+void $1_shutdown(struct platform_device *pdev) {
+
+}
+
+static struct platform_driver $1_driver = {
+	.probe = $1_probe,
+	.remove  = $1_remove,
+	.driver.name = "$1",
+	.suspend = $1_suspend,
+	.resume = $1_resume,
+	.shutdown = $1_shutdown,
+};
+
+static struct platform_device $1_device = {
+	.name = "$1",
+};
+
+int __init $1_init(void) {
+	int ret;
+
+	$0
+
+	ret = platform_driver_register(&$1_driver);
+	if (ret) {
+		pr_err("$1: $1 driver register failed\n");
+		ret = -EINVAL;
+		goto error_platform_driver_register_failed;
+	}
+
+	ret = platform_device_register(&$1_device);
+	if (ret) {
+		pr_err("$1: $1 device register failed\n");
+		ret = -EINVAL;
+		goto error_platform_device_register_failed;
+	}
+
+	return 0;
+error_platform_driver_register_failed:
+	;/* ToDo : write your error deal code here */
+error_platform_device_register_failed:
+	platform_driver_unregister(&$1_driver);
+	return ret;
+}
+module_init($1_init);
+
+void __exit $1_exit(void) {
+	platform_device_unregister(&$1_device);
+	platform_driver_unregister(&$1_driver);
+}
+module_exit($1_exit);

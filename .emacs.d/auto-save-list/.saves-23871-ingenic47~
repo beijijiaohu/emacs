@@ -1,0 +1,14 @@
+/home/jwu/work/slpt_m200/kernel/drivers/video/ingenic/view/picture.c
+/home/jwu/work/slpt_m200/kernel/drivers/video/ingenic/view/#picture.c#
+/home/jwu/work/slpt_m200/kernel/include/picture.h
+/home/jwu/work/slpt_m200/kernel/include/#picture.h#
+/home/jwu/work/slpt_m200/kernel/drivers/video/ingenic/utils/picture_creator.c
+/home/jwu/work/slpt_m200/kernel/drivers/video/ingenic/utils/#picture_creator.c#
+/home/jwu/work/slpt_m200/kernel/drivers/video/ingenic/clock/date_cn_view.c
+/home/jwu/work/slpt_m200/kernel/drivers/video/ingenic/clock/#date_cn_view.c#
+/home/jwu/work/slpt_m200/kernel/arch/mips/cpu/xburst/common/view/date_cn_view.c
+/home/jwu/work/slpt_m200/kernel/arch/mips/cpu/xburst/common/view/#date_cn_view.c#
+/home/jwu/work/slpt_m200/kernel/arch/mips/cpu/xburst/common/view/display.c
+/home/jwu/work/slpt_m200/kernel/arch/mips/cpu/xburst/common/view/#display.c#
+/home/jwu/work/slpt_m200/kernel/drivers/slpt/slpt_methord.c
+/home/jwu/work/slpt_m200/kernel/drivers/slpt/#slpt_methord.c#
