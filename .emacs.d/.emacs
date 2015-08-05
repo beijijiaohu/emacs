@@ -119,8 +119,11 @@
 ;;(set-face-foreground 'highlight "white")
 ;; (set-face-background 'highlight "blue")
 
+(set-background-color "black") ;; 使用黑色背景
+(set-foreground-color "gray") ;; 使用灰色前景
+
 (set-face-foreground 'region "cyan")
-(set-face-background 'region "blue")
+(set-face-background 'region "#505050") ;; 浅灰色，选择起来不刺眼
 (set-face-foreground 'secondary-selection "skyblue")
 (set-face-background 'secondary-selection "darkblue")
 
