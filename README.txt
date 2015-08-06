@@ -13,10 +13,10 @@ a   安装一些软件
     sudo apt-get install cflow
 b   做些拷贝/链接动作，这里采用软链接
     sudo rm /usr/bin/cscope-indexer
-    sudo ln -s ./.emacs.d/grep_cscope_file /usr/bin/grep_cscope_file
-    sudo ln -s ./.emacs.d/cscope-indexer /usr/bin/cscope-indexer
-    ln -s ./.emacs.d/.emacs ~/.emacs
-    ln -s ./.emacs.d ~/.emacs.d
+    sudo ln -s ${PWD}/.emacs.d/grep_cscope_file /usr/bin/grep_cscope_file
+    sudo ln -s ${PWD}/.emacs.d/cscope-indexer /usr/bin/cscope-indexer
+    ln -s ${PWD}/.emacs.d/.emacs ~/.emacs
+    ln -s ${PWD}/.emacs.d ~/.emacs.d
 
 c   打开你的emacs试试
     emacs &
