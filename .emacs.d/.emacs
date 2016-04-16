@@ -46,6 +46,9 @@
 )
 
 (global-set-key [f2] 'my-open-shell)
+(global-set-key [(control f5)] 'revert-buffer)
+
+(global-set-key [(control f6)] 'c-mode)
 
 ;; to roll screen with out moving cursor
 (global-set-key [M-down] 'View-scroll-line-forward)
@@ -119,11 +122,13 @@
 ;;(set-face-foreground 'highlight "white")
 ;; (set-face-background 'highlight "blue")
 
-(set-background-color "black") ;; 使用黑色背景
-(set-foreground-color "gray") ;; 使用灰色前景
+;; (set-background-color "#202020") ;; 使用黑色背景
+;; (set-foreground-color "white") ;; 使用白色前景
+;; (set-face-background 'region "#505050") ;; 浅灰色，选择起来不刺眼
+
+(set-face-background 'region "blue")
 
 (set-face-foreground 'region "cyan")
-(set-face-background 'region "#505050") ;; 浅灰色，选择起来不刺眼
 (set-face-foreground 'secondary-selection "skyblue")
 (set-face-background 'secondary-selection "darkblue")
 
@@ -425,6 +430,7 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(ecb-options-version "2.40")
+ '(ecb-primary-secondary-mouse-buttons (quote mouse-1--mouse-2))
  '(ecb-source-path (quote (("/home/jiaowu/work/4780/kernel" "LNX")))))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
