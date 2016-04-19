@@ -124,9 +124,9 @@
 
 ;; (set-background-color "#202020") ;; 使用黑色背景
 ;; (set-foreground-color "white") ;; 使用白色前景
-;; (set-face-background 'region "#505050") ;; 浅灰色，选择起来不刺眼
 
-(set-face-background 'region "blue")
+(set-background-color "#f7f7f7") ;; 使用白色背景，就像文件浏览器的白色
+(set-face-background 'region "#505050") ;; 有点儿像巧克力的颜色，选择起来不刺眼
 
 (set-face-foreground 'region "cyan")
 (set-face-foreground 'secondary-selection "skyblue")
