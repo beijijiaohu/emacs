@@ -49,6 +49,7 @@
 (global-set-key [(control f5)] 'revert-buffer)
 
 (global-set-key [(control f6)] 'c-mode)
+(global-set-key [(control f7)] 'vc-diff)
 
 ;; to roll screen with out moving cursor
 (global-set-key [M-down] 'View-scroll-line-forward)
@@ -228,7 +229,7 @@
 (setq frame-title-format "emacs@%b")
 
 ;;光标显示为一条竖线
-;;setq-default cursor-type 'bar
+(setq-default cursor-type 'bar)
 
 ;;使用C-k删除指针到改行末的所有东西
 (setq-default kill-whole-line t)
@@ -254,7 +255,7 @@
 
 
 ;;光标靠近鼠标指针时，让鼠标指针自动让开
-(mouse-avoidance-mode 'animate) 
+;; (mouse-avoidance-mode 'animate) 
     
 ;;不要在鼠标光标出插入
 (setq mouse-yank-at-point t) 
@@ -429,9 +430,14 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(cua-mode t nil (cua-base))
+ '(display-time-mode t)
  '(ecb-options-version "2.40")
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--mouse-2))
- '(ecb-source-path (quote (("/home/jiaowu/work/4780/kernel" "LNX")))))
+ '(ecb-source-path (quote (("/home/jiaowu/work/4780/kernel" "LNX"))))
+ '(show-paren-mode t)
+ '(tool-bar-mode nil))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
